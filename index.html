@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Sean Kelly's Portfolio</title>
+</head>
+<body>
+    <header class="row">
+        <h1 class="row-4 ml-1">Sean Kelly</h1>
+        <nav class="row-8">
+            <a href="#work">work</a>
+            <a href="https://www.linkedin.com/in/sean-kelly-2b7818bb/" target=_blank>linkedIn</a>
+            <a href="./assets/Sean-Kelly.pdf" target=_blank>resume</a>
+            <a href="#contact">contact me</a>
+        </nav>
+    </header>
+
+    <figure id="backgroundhead" class="pl-1 m-1 mt-4">
+        <img src = "./assets/himg.jfif" height="250" width="250" alt="hero shot of sean" class="profilepic rounded-circle">
+        <h3>fullstack web developer</h3>
+    </figure>
+
+    <main id="work" class="row">
+        <h3 class="col-2 mx-2 pl-4 mt-4 justify-content-center">work</h3>
+        <div class="row col-md-10 col-sm-12 justify-items-around">
+            <div class="card col-12" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/screenshots/project1.png" alt="screenshot of project 1 park finder">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Park Finder</h5>
+                  <p class="card-text text-center">Make multiple api calls based on user input to find local park and weather information</p>
+                  <div class="d-flex justify-content-center">
+                  <a href="https://nbp77.github.io/Project-1/" target=_blank class="btn btn-primary center-block">View the site!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-md-6 col-sm-12" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/screenshots/scheduler.png" alt="screenshot of work day schedule app">
+                <div class="card-body">
+                  <h5 class="card-title">Work Day Scheduler</h5>
+                  <p class="card-text">Displays date color coordinates hours left in the workday. Allows user to save tasks to each hour so that they load on refresh</p>
+                  <a href="https://github.com/skelly1389/Work-Day-Scheduler" target=_blank class="btn btn-primary">View the repo!</a>
+                </div>
+            </div>
+            <div class="card col-md-6 col-sm-12" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/screenshots/passwordgen.png" alt="screenshot of password generator app">
+                <div class="card-body">
+                  <h5 class="card-title">Password Generator</h5>
+                  <p class="card-text">Generates a randomized password based on user parameters such as length and character selection</p>
+                  <a href="https://github.com/skelly1389/Password_Generator" target=_blank class="btn btn-primary">View the repo!</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact" class="row mx-1 mb-4">
+        <h3 col-3><pre class="h-auto p-1">Contact 
+Me</pre></h3>
+        <div class="row col-9 justify-content-between ml-1">
+            <a href="tel:1-215-622-7838">215.622.7838</a>
+            <a href="mailto:invertedrdm@gmail.com">invertedrdm@gmail.com</a>
+            <a href="https://github.com/skelly1389/" target=_blank>Github</a>
+            <a href="https://bandcamp.com/guilty" target=_blank>Bandcamp</a>
+            <img src="https://cdn.discordapp.com/attachments/806355192898519100/808116016285876254/Sean_Running_v2.gif" height="70px" width="54px" alt="shovel sean" id="bottomgif" class="mt-1">
+        </div>
+    </footer>
+</body>
