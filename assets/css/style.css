@@ -55,5 +55,6 @@ footer {
 }
 
 .card:hover {
-    border: 10px dotted #fad5ad;
+    border: 2px dotted #fad5ad;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
